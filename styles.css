@@ -1,0 +1,130 @@
+/* Reset default margins and padding for uniform appearance across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Copperplate', serif;
+    text-align: center;
+    color: #fff;
+    background-color: #013220;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays on top */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Main Content Adjustments */
+main {
+    margin-top: 80px; /* To offset the fixed header height */
+}
+
+/* Section Background */
+.section-bg {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* For parallax effect */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Assigning unique background images to each section */
+#home {
+    background-image: url('venv/Images/home.jpg'); /* Replace with your image path */
+}
+
+#about {
+    background-image: url('venv/Images/research_copy.jpg'); /* Replace with your image path */
+}
+
+#research {
+    background-image: url('venv/Images/AboutMe.jpg');
+}
+
+#outreach {
+    background-image: url('venv/Images/education7.jpg'); /* Replace with your image path */
+}
+
+#cv {
+    background-image: url('venv/Images/CV7.jpg'); /* Replace with your image path */
+}
+
+#contact {
+    background-image: url('venv/Images/green.jpg'); /* Replace with your image path */
+}
+
+/* Overlay Box Styles */
+.overlay-box {
+    background: rgba(0, 0, 0, 0.7); /* Dark translucent background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #fff;
+    text-align: center;
+}
+
+/* Small Photo Styling */
+.small-photo {
+    position: relative;
+    top: 10px;
+    width: 250px; /* Adjust width as needed */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px;
+}
+
+/* Heading and Paragraph Styles */
+h1, h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    max-width: 800px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 10px;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+}
+

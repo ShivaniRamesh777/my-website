@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to my website!</title>
+</head>
+<body>
+    <!-- Your website's body content goes here -->
+    <div style="height: 2000px;"></div> <!-- Temporary content for scrolling -->
+
+    <!-- Your JavaScript code -->
+    <script>
+        window.onload = function() {
+            var scrollSpeed = 20;  // Time interval in milliseconds
+            var scrollStep = 2;    // Number of pixels to scroll per interval
+
+            function autoScroll() {
+                var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+                var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+
+                if (currentScroll >= maxScroll) {
+                    clearInterval(scrollInterval); // Stops scrolling at the bottom
+                } else {
+                    window.scrollBy(0, scrollStep); // Scrolls the page
+                }
+            }
+
+            var scrollInterval = setInterval(autoScroll, scrollSpeed);
+        }
+    </script>
+</body>
+</html>
