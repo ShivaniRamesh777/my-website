@@ -62,27 +62,27 @@ main {
 
 /* Assigning unique background images to each section */
 #home {
-    background-image: url('venv/Images/home.jpg'); /* Replace with your image path */
+    background-image: url('home.jpg'); /* Replace with your image path */
 }
 
 #about {
-    background-image: url('venv/Images/research_copy.jpg'); /* Replace with your image path */
+    background-image: url('research_copy.jpg'); /* Replace with your image path */
 }
 
 #research {
-    background-image: url('venv/Images/AboutMe.jpg');
+    background-image: url('AboutMe.jpg');
 }
 
 #outreach {
-    background-image: url('venv/Images/education7.jpg'); /* Replace with your image path */
+    background-image: url('education7.jpg'); /* Replace with your image path */
 }
 
 #cv {
-    background-image: url('venv/Images/CV7.jpg'); /* Replace with your image path */
+    background-image: url('CV7.jpg'); /* Replace with your image path */
 }
 
 #contact {
-    background-image: url('venv/Images/green.jpg'); /* Replace with your image path */
+    background-image: url('green.jpg'); /* Replace with your image path */
 }
 
 /* Overlay Box Styles */
