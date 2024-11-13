@@ -86,7 +86,7 @@ main {
 
 /* Overlay Box Styles */
 .overlay-box {
-    background: rgba(0, 0, 0, 0.7); /* Dark translucent background */
+    background: rgba(0, 0, 0, 0.8); /* Dark translucent background */
     padding: 20px;
     border-radius: 8px;
     max-width: 800px;
