@@ -66,11 +66,7 @@ main {
 }
 
 #about {
-    background-image: url('research_copy.jpg'); /* Replace with your image path */
-}
-
-#research {
-    background-image: url('AboutMe.jpg');
+    background-image: url('research.jpg'); /* Replace with your image path */
 }
 
 #outreach {
@@ -82,7 +78,7 @@ main {
 }
 
 #contact {
-    background-image: url('green.jpg'); /* Replace with your image path */
+    background-image: url('Green.jpg'); /* Replace with your image path */
 }
 
 /* Overlay Box Styles */
