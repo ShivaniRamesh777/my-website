@@ -68,6 +68,9 @@ main {
 #about {
     background-image: url('research.jpg'); /* Replace with your image path */
 }
+#research {
+    background-image: url('AboutMe.jpg');
+}
 
 #outreach {
     background-image: url('education7.jpg'); /* Replace with your image path */
